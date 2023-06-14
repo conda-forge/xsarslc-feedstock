@@ -1,5 +1,5 @@
 {% set name = "xsarslc" %}
-{% set version = "2023.6.2" %}
+{% set version = "2023.6.14" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xsarslc-{{ version }}.tar.gz
-  sha256: 46d0b7b0f90128c50df4ba2f38215f5fe6ab6cc392a0eaf532648d83775dae2f
+  sha256: 126f859ab2ce87fd7727941c596107bc922ccef61dd505d3884d5997770ab81b
 
 build:
   noarch: python
